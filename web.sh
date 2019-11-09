@@ -2,5 +2,5 @@
 sudo yum install httpd -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
-sudo cp . /var/www/html/
+sudo cp -r ./test* /var/www/html/
 
